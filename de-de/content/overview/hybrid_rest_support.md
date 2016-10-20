@@ -1,4 +1,4 @@
-# <a name="use-rest-apis-to-access-mailboxes-in-exchange-hybrid-deployments-(preview)"></a>Verwenden von REST-APIs für den Zugriff auf Postfächer in Exchange-Hybridbereitstellungen (Vorschau)
+﻿# <a name="use-rest-apis-to-access-mailboxes-in-exchange-hybrid-deployments-(preview)"></a>Verwenden von REST-APIs für den Zugriff auf Postfächer in Exchange-Hybridbereitstellungen (Vorschau)
 
 Microsoft Graph unterstützte stets den Zugriff auf Postfächer von Kunden in der Cloud in Exchange Online als Teil von Office 365. Das kumulative Update 3 für Exchange 2016 (CU3) wurde im September 2016 für lokale Exchange-Server veröffentlicht und umfasst Unterstützung für die REST-API-Integration in Office 365. Wenn Ihre App v1.0 der [Mail](http://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/message)-, [Kalender](http://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/calendar)- oder [Kontakte](http://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/contact)-API verwendet, finden Sie nun eine nahtlose Authentifizierungs- und Anwendungserfahrung in _Hybrid_bereitstellungen, unabhängig davon, ob die Postfächer lokal oder in der Cloud gespeichert sind, vorausgesetzt, die Bereitstellung erfüllt bestimmte [Anforderungen](#requirements-for-rest-api-to-work-in-hybrid-deployments). 
 
@@ -9,7 +9,7 @@ Wenn Microsoft Graph erkennt, dass ein REST-API-Aufruf versucht, auf ein lokales
 
 >Für Postfächer in Hybridbereitstellungen ist nur v1.0 der Mail-, Kalender- und Kontakte-API verfügbar. Andere v1.0-API-Sätze, wie beispielsweise die [Gruppen](http://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/group)-API oder APIs in anderen Versionen sind nicht verfügbar. Wenn Sie versuchen, eine API zu verwenden, die nicht Teil in eines unterstützten Satzes in einer Hybridumgebung sind, erhalten Sie folgende Fehlermeldung:
 
->„REST-APIs für das Postfach sind derzeit in der Vorschau. Weitere Informationen zu den REST-APIs in der Vorschau finden Sie unter https://dev.outlook.com.“
+>„REST-APIs für das Postfach sind derzeit in der Vorschau. Weitere Informationen zu den REST-APIs in der Vorschau finden Sie unter https://dev.outlook.com .“
 
 ## <a name="requirements-for-the-rest-api-to-work-in-hybrid-deployments"></a>Anforderungen für die REST-API für Hybridbereitstellungen
 
@@ -33,7 +33,6 @@ Microsoft Graph bietet Offenheit (Unterstützung offener Standards wie JSON, OAU
 
 IT-Administratoren finden weitere Informationen in den folgenden Ressourcen:
 
-- 
-  [Hybridbereitstellungen in Exchange Server](https://technet.microsoft.com/en-us/library/jj200581(v=exchg.150).aspx)
+-   [Hybridbereitstellungen in Exchange Server](https://technet.microsoft.com/en-us/library/jj200581(v=exchg.150).aspx)
 - [Kumulatives Update-Release September 2016](https://blogs.technet.microsoft.com/exchange/2016/09/20/released-september-2016-quarterly-exchange-updates/) 
 - [Anforderungen an die lokale Architektur für die REST-API](https://blogs.technet.microsoft.com/exchange/2016/09/26/on-premises-architectural-requirements-for-the-rest-api/)
